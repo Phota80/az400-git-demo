@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace PowerPlantSampleApi.Controllers
 {    
     [Produces("application/json")]
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] 
     [ApiController]
     public class PprecordersController : ControllerBase
     {
